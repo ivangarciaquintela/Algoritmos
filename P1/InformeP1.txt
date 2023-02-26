@@ -1,0 +1,88 @@
+Practica 1 Algoritmos : Suma de la Subsecuencia Maxima
+AUTORES : IVAN GARCIA QUINTELA | ALVARO REGUEIRA VILAR | CANDELA IGLESIAS LORENZO
+LOGIN 	: ivan.garcia.quintela |        a.rvilar       |    candela.iglesias
+GRUPO 	: 1.1 MIERCOLES 10:30 - 12:30
+FECHA	: 22/09/22
+
+La ejecución de ambos algoritmos así como la medición de sus tiempos han 
+
+sido probados en una maquina con las siguientes especificaciones:
+
+- CPU 		: 1,7 GHZ Intel Core i5
+- MEMORIA 	: 4 GB 1333 MHz DDR3
+- SISTEMA 	: macOS HighSierra Versión 10.13.6
+
+Introducción: 
+
+El informe de esta primera practica va a tratar dos algoritmos, en los 
+
+que dados n numeros enteros organizados en vectores, calculan cual es la 
+
+subsecuencia cuya suma es la maxima posible.
+
+Primero, probaremos unos vectores dados para cada uno de los dos 
+
+algoritmos, que acompañados de sus resultados, podremos comprobar si el 
+
+algoritmo se ejecuta como debe.
+
+Seguidamente, probaremos de nuevo los dos algoritmos, pero esta vez con 
+
+numeros generados aleatoriamente y que tendran que seguir dando el mismo 
+
+resultado ambos algoritmos.
+	
+Y por último, mrediremos los tiempos de ejecución de vectores también 
+
+aleatorios, de tamaño n igual a  500, 1000,2000,4000,8000,16000 y 32000.
+
+Los tiempos que aparecen a continuación están medidos en microsegundos.
+
+Ademas, en los casos en los que la ejecucion esta por debajo de nuestro
+
+umbral de confianza (500 microsegundos), se marcaran con (*) 
+
+y se ejecutaran 1000 veces el algoritmo para que sea medido de nuevo.
+
+ Medición sumaSubMax1
+   n              t(n)          t(n)/n^1.8            t(n)/n^2          t(n)/n^2.2
+  500       420.398601          0.005828              0.001682          0.000485
+ 1000      1841.000000          0.007329              0.001841          0.000462
+ 2000      6079.000000          0.006950              0.001520          0.000332
+ 4000     31803.000000          0.010441              0.001988          0.000378
+ 8000    114404.000000          0.010786              0.001788          0.000296
+16000    442598.000000          0.011984              0.001729          0.000249
+32000   1708268.000000          0.013283              0.001668          0.000210
+                             Cota Subestimada       Cota ajustada    Cota sobreestimada
+                                                    Cte = 0,001645 
+Observaciones : 
+La cota subestimada (n^1.8) tiende a infinito a medida que aumenta el valor de n.
+La cota ajustada (n^2) tiende a una constante C>0 cuyo valor aproximado es 0.0022.
+La cota sobreestimada (n^2.2) tiende a 0 a medida que incrementa el valor de n.
+
+
+
+
+ Medición sumaSubMax2
+   n              t(n)           t(n)/n^0.8               t(n)/n          t(n)/n*logn
+(*)  500         3.151848          0.021847              0.006304          0.001014
+(*) 1000         4.165834          0.016584              0.004166          0.000603
+(*) 2000         9.471528          0.021657              0.004736          0.000623
+(*) 4000        36.120879          0.047436              0.009030          0.001089
+(*) 8000        42.494505          0.032052              0.005312          0.000591
+(*)16000        89.542458          0.038791              0.005596          0.000578
+(*)32000       138.466533          0.034453              0.004327          0.000417
+                                Cota Subestimada       Cota ajustada    Cota sobreestimada
+                                                       Cte = 0,0051267
+														
+Observaciones : 
+Caso anómalo en 4000
+La cota subestimada (n^0.8) tiende a infinito a medida que aumentamos el valor de n.
+La cota ajustada (n) tiende a una constante C>0 cuyo valor aproximado es 0,0051267 .
+La cota sobreestimada (n*log(n)) tiende a 0 a medida que aumentamos el valor de n.
+
+Conclusiones :
+
+Nos encontramos ante dos algoritmos, el primero con una complejidad de O(n^2) 
+y el segundo con una complejidad de de O(n).
+Por lo tanto el segundo algoritmo es más eficiente respecto su complejidad

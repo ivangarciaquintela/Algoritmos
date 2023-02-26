@@ -1,0 +1,1653 @@
+desc: I1 cache:         32768 B, 64 B, 8-way associative
+desc: D1 cache:         32768 B, 64 B, 8-way associative
+desc: LL cache:         3145728 B, 64 B, 12-way associative
+cmd: ./P2
+events: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw 
+fl=/Users/ivan/valgrind/coregrind/vg_preloaded.c
+fn=vg_cleanup_env
+0 13 0 0 0 0 0 0 0 0
+153 6 3 3 0 0 0 3 0 0
+155 405 0 0 101 2 0 0 0 0
+156 496 0 0 4 0 0 98 0 0
+157 288 3 3 96 0 0 96 0 0
+158 96 0 0 0 0 0 0 0 0
+161 6 0 0 3 0 0 3 0 0
+163 6 0 0 3 0 0 3 0 0
+164 3 0 0 0 0 0 3 0 0
+169 2 1 1 0 0 0 1 0 0
+170 8 0 0 1 0 0 7 0 0
+175 8 1 1 7 0 0 0 0 0
+fl=???
+fn=(anonymous namespace)::AutoreleasePoolPage::autoreleaseNoPage(objc_object*)
+0 108 6 3 28 0 0 24 0 0
+fn=(anonymous namespace)::AutoreleasePoolPage::pop(void*)
+0 124 8 4 52 8 0 32 0 0
+fn=+[NSObject load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_dispatch_data_empty load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_dispatch_disk load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_dispatch_group load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_io load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_mach load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_mach_msg load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_dispatch_operation load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_queue load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_attr load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_concurrent load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_main load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_mgr load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_network_event load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_root load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_runloop load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_serial load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_dispatch_queue_specific_queue load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_semaphore load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_dispatch_source load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_os_activity load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_os_log load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_voucher load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_activity load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_array load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_bool load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_bundle load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_connection load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_xpc_data load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_date load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_dictionary load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_double load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_endpoint load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_error load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_fd load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_file_transfer load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_int64 load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_mach_recv load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_mach_send load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_null load]
+0 1 1 1 1 0 0 0 0 0
+fn=+[OS_xpc_pipe load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_pointer load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_serializer load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_service load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_service_instance load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_shmem load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_string load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_uint64 load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[OS_xpc_uuid load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[Protocol load]
+0 1 0 0 1 0 0 0 0 0
+fn=+[__IncompleteProtocol load]
+0 1 1 0 1 0 0 0 0 0
+fn=+[__NSUnrecognizedTaggedPointer load]
+0 1 1 1 1 0 0 0 0 0
+fn=Diagnostics::Diagnostics(bool)
+0 10 1 1 4 0 0 4 0 0
+fn=Diagnostics::assertNoError() const
+0 8 1 1 4 0 0 0 0 0
+fn=Diagnostics::~Diagnostics()
+0 34 1 1 10 0 0 10 0 0
+fn=ImageLoader::ImageLoader(char const*, unsigned int)
+0 11656 79 2 1630 0 0 533 60 55
+fn=ImageLoader::InitializerTimingList::addTime(char const*, unsigned long long)
+0 128 3 1 32 2 0 35 2 0
+fn=ImageLoader::applyInterposing(ImageLoader::LinkContext const&)
+0 14 1 1 8 1 0 2 0 0
+fn=ImageLoader::compare(ImageLoader const*) const
+0 14946 5 0 6084 0 0 1389 0 0
+fn=ImageLoader::containsAddress(void const*) const
+0 241 4 2 79 5 0 57 0 0
+fn=ImageLoader::dependsOn(ImageLoader*)
+0 332 2 2 100 0 0 69 0 0
+fn=ImageLoader::findExportedSymbol(char const*, bool, ImageLoader const**) const
+0 5994 4 0 2664 0 0 666 0 0
+fn=ImageLoader::findExportedSymbolAddress(ImageLoader::LinkContext const&, char const*, ImageLoader const*, int, bool, ImageLoader const**, unsigned long*) const
+0 26640 4 2 9324 10 0 6660 12 4
+fn=ImageLoader::getRealPath() const
+0 4280 4 1 2140 2 0 535 0 0
+fn=ImageLoader::getShortName() const
+0 114 1 1 24 0 0 24 0 0
+fn=ImageLoader::hasHiddenExports() const
+0 574 2 2 246 6 0 82 0 0
+fn=ImageLoader::hash(char const*)
+0 93774 1 1 13973 8 0 367 0 0
+fn=ImageLoader::interposedAddress(ImageLoader::LinkContext const&, unsigned long, ImageLoader const*, ImageLoader const*)
+0 8931 4 2 3435 2 0 2061 0 0
+fn=ImageLoader::isLinked() const
+0 16 0 0 6 0 0 2 0 0
+fn=ImageLoader::lastModified() const
+0 2450 1 0 1470 0 0 490 0 0
+fn=ImageLoader::link(ImageLoader::LinkContext const&, bool, bool, bool, ImageLoader::RPathChain const&, char const*)
+0 241 10 9 83 8 0 76 3 0
+fn=ImageLoader::matchInstallPath() const
+0 52745 0 0 22605 0 0 7535 0 0
+fn=ImageLoader::processInitializers(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0 547 8 3 264 24 0 73 4 0
+fn=ImageLoader::read_sleb128(unsigned char const*&, unsigned char const*)
+0 50 2 2 6 0 0 2 0 0
+fn=ImageLoader::read_uleb128(unsigned char const*&, unsigned char const*)
+0 353934 5 2 66039 109 89 27784 0 0
+fn=ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool)
+0 16402 4 4 5182 103 0 3554 0 0
+fn=ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0 13296 3 3 4447 2 0 2613 0 0
+fn=ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, char const*, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0 26522 15 8 8941 35 0 6265 11 0
+fn=ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&, char const*)
+0 51697 18 18 17774 166 0 8756 16 4
+fn=ImageLoader::recursiveRebase(ImageLoader::LinkContext const&)
+0 13462 5 3 4161 172 0 2695 0 0
+fn=ImageLoader::recursiveSpinLock(ImageLoader::recursive_lock&)
+0 3680 2 1 1840 8 0 368 0 0
+fn=ImageLoader::recursiveUpdateDepth(unsigned int)
+0 32270 2 2 10118 3 0 6754 0 0
+fn=ImageLoader::runInitializers(ImageLoader::LinkContext const&, ImageLoader::InitializerTimingList&)
+0 82 4 3 20 1 0 28 1 0
+fn=ImageLoader::setFileInfo(int, unsigned long long, long)
+0 280 1 1 80 0 0 160 0 0
+fn=ImageLoader::setMapped(ImageLoader::LinkContext const&)
+0 410 5 1 82 0 0 82 0 0
+fn=ImageLoader::setNeverUnloadRecursive()
+0 24 2 2 10 0 0 6 0 0
+fn=ImageLoader::setPath(char const*)
+0 436 2 2 66 0 0 9 0 0
+fn=ImageLoader::setPathUnowned(char const*)
+0 10410 78 2 1593 0 0 234 0 0
+fn=ImageLoader::setWeakSymbolsBound(unsigned int)
+0 15 0 0 9 0 0 3 0 0
+fn=ImageLoader::statMatch(stat const&) const
+0 8900 1 1 4840 7 3 820 0 0
+fn=ImageLoader::trieWalk(unsigned char const*, unsigned char const*, char const*)
+0 1969881 13 7 285704 2335 639 211201 43 11
+fn=ImageLoader::weakBind(ImageLoader::LinkContext const&)
+0 2704 20 20 1131 7 0 385 2 0
+fn=ImageLoader::weakSymbolsBound(unsigned int)
+0 132 0 0 66 0 0 22 0 0
+fn=ImageLoaderMachO::ImageLoaderMachO(macho_header const*, char const*, unsigned int, unsigned int*, unsigned int)
+0 8538 3 3 2436 0 0 820 8 8
+fn=ImageLoaderMachO::assignSegmentAddresses(ImageLoader::LinkContext const&)
+0 5572 11 7 1632 15 1 957 29 8
+fn=ImageLoaderMachO::bindLocation(ImageLoader::LinkContext const&, unsigned long, unsigned long, unsigned char, char const*, long, char const*, char const*, char const*)
+0 44362 9 4 12340 456 31 9841 1 0
+fn=ImageLoaderMachO::computeSlide(mach_header const*)
+0 90 2 2 24 6 0 18 0 0
+fn=ImageLoaderMachO::crashIfInvalidCodeSignature()
+0 1200 2 2 480 1 1 240 0 0
+fn=ImageLoaderMachO::doGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0 2806 6 5 994 199 0 406 2 2
+fn=ImageLoaderMachO::doGetDependentLibraries(ImageLoader::DependentLibraryInfo*)
+0 17510 4 4 3804 564 0 2835 19 7
+fn=ImageLoaderMachO::doGetLibraryInfo(ImageLoader::LibraryInfo const&)
+0 5124 0 0 2562 14 0 366 0 0
+fn=ImageLoaderMachO::doImageInit(ImageLoader::LinkContext const&)
+0 861 10 4 328 0 0 287 0 0
+fn=ImageLoaderMachO::doInitialization(ImageLoader::LinkContext const&)
+0 984 2 1 246 0 0 287 1 0
+fn=ImageLoaderMachO::doModInitFunctions(ImageLoader::LinkContext const&)
+0 2281 18 9 929 73 0 538 1 0
+fn=ImageLoaderMachO::doRebase(ImageLoader::LinkContext const&)
+0 1600 4 3 619 49 0 246 0 0
+fn=ImageLoaderMachO::findExportedSymbol(char const*, bool, char const*, ImageLoader const**) const
+0 340996 13 5 94284 275 0 46385 20 5
+fn=ImageLoaderMachO::forceFlat() const
+0 7 0 0 4 1 0 1 0 0
+fn=ImageLoaderMachO::getExportedSymbolAddress(ImageLoader::Symbol const*, ImageLoader::LinkContext const&, ImageLoader const*, bool, char const*) const
+0 13480 1 1 3370 0 0 2696 0 0
+fn=ImageLoaderMachO::getInstallPath() const
+0 10656 1 1 4427 574 0 901 0 0
+fn=ImageLoaderMachO::getLazyBindingInfo(unsigned int&, unsigned char const*, unsigned char const*, unsigned char*, unsigned long*, int*, char const**, bool*)
+0 37869 11 5 8442 215 182 7462 24 5
+fn=ImageLoaderMachO::getRPaths(ImageLoader::LinkContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >&) const
+0 8239 4 3 2436 0 0 451 9 3
+fn=ImageLoaderMachO::getSlide() const
+0 615 0 0 369 22 0 123 0 0
+fn=ImageLoaderMachO::getThreadPC() const
+0 100 2 2 31 1 0 4 0 0
+fn=ImageLoaderMachO::getUUID(unsigned char*) const
+0 5248 3 3 1640 262 0 164 0 0
+fn=ImageLoaderMachO::hasCoalescedExports() const
+0 21 0 0 12 0 0 3 0 0
+fn=ImageLoaderMachO::inSharedCache() const
+0 4081 3 2 1749 25 0 583 0 0
+fn=ImageLoaderMachO::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, ImageLoader::LinkContext const&)
+0 2400 46 3 760 0 0 840 4 3
+fn=ImageLoaderMachO::instantiateMainExecutable(macho_header const*, unsigned long, char const*, ImageLoader::LinkContext const&)
+0 46 4 4 11 0 0 12 0 0
+fn=ImageLoaderMachO::isBundle() const
+0 294 0 0 168 1 0 42 0 0
+fn=ImageLoaderMachO::isDylib() const
+0 3409 1 1 1948 338 0 487 0 0
+fn=ImageLoaderMachO::isExecutable() const
+0 280 0 0 160 0 0 40 0 0
+fn=ImageLoaderMachO::isPrebindable() const
+0 1304 1 1 652 40 0 163 0 0
+fn=ImageLoaderMachO::libPath(unsigned int) const
+0 699970 7 3 135697 957 0 31935 22 4
+fn=ImageLoaderMachO::loadCodeSignature(linkedit_data_command const*, int, unsigned long long, ImageLoader::LinkContext const&)
+0 2101 82 5 674 1 0 515 10 7
+fn=ImageLoaderMachO::machHeader() const
+0 4140 6 1 2484 33 0 828 0 0
+fn=ImageLoaderMachO::mapSegments(int, unsigned long long, unsigned long long, unsigned long long, ImageLoader::LinkContext const&)
+0 11192 126 10 4247 1 1 1987 1 1
+fn=ImageLoaderMachO::needsAddedLibSystemDepency(unsigned int, macho_header const*)
+0 3102 42 2 794 20 0 592 14 8
+fn=ImageLoaderMachO::needsTermination()
+0 246 3 2 123 1 0 41 0 0
+fn=ImageLoaderMachO::notifyObjC() const
+0 567 6 0 243 17 0 81 0 0
+fn=ImageLoaderMachO::parseLoadCmds(ImageLoader::LinkContext const&)
+0 44380 19 19 8221 45 34 4256 3 3
+fn=ImageLoaderMachO::participatesInCoalescing() const
+0 1148 0 0 410 65 0 328 0 0
+fn=ImageLoaderMachO::preFetchDATA(int, unsigned long long, ImageLoader::LinkContext const&)
+0 3414 3 3 972 0 0 702 0 0
+fn=ImageLoaderMachO::registerInterposing()
+0 18435 3 3 6590 1222 0 2956 0 0
+fn=ImageLoaderMachO::reserveAnAddressRange(unsigned long, ImageLoader::LinkContext const&)
+0 1000 7 3 280 0 0 280 1 1
+fn=ImageLoaderMachO::sdkVersion() const
+0 8868 3 3 2477 0 0 799 35 12
+fn=ImageLoaderMachO::segActualEndAddress(unsigned int) const
+0 6336 3 1 2592 9 0 2016 1 0
+fn=ImageLoaderMachO::segActualLoadAddress(unsigned int) const
+0 16660 5 2 9800 40 0 3920 4 0
+fn=ImageLoaderMachO::segExecutable(unsigned int) const
+0 2142 1 1 1071 0 0 476 0 0
+fn=ImageLoaderMachO::segFileOffset(unsigned int) const
+0 5776 2 2 3249 1 1 1444 0 0
+fn=ImageLoaderMachO::segFileSize(unsigned int) const
+0 4432 1 1 2493 0 0 1108 0 0
+fn=ImageLoaderMachO::segHasPreferredLoadAddress(unsigned int) const
+0 680 0 0 360 0 0 160 0 0
+fn=ImageLoaderMachO::segName(unsigned int) const
+0 2592 2 2 1296 0 0 648 0 0
+fn=ImageLoaderMachO::segPreferredLoadAddress(unsigned int) const
+0 3808 0 0 2142 0 0 952 0 0
+fn=ImageLoaderMachO::segReadable(unsigned int) const
+0 2023 0 0 1071 0 0 476 0 0
+fn=ImageLoaderMachO::segSize(unsigned int) const
+0 10352 0 0 5823 186 0 2588 0 0
+fn=ImageLoaderMachO::segUnaccessible(unsigned int) const
+0 4199 7 2 2223 13 0 988 1 0
+fn=ImageLoaderMachO::segWriteable(unsigned int) const
+0 5742 2 0 2871 78 0 1276 1 0
+fn=ImageLoaderMachO::segmentCount() const
+0 830 3 0 498 0 0 166 0 0
+fn=ImageLoaderMachO::segmentsCanSlide() const
+0 560 2 2 200 0 0 160 8 4
+fn=ImageLoaderMachO::segmentsMustSlideTogether() const
+0 200 0 0 80 0 0 40 0 0
+fn=ImageLoaderMachO::setSlide(long)
+0 205 1 1 82 0 0 82 0 0
+fn=ImageLoaderMachO::setupLazyPointerHandler(ImageLoader::LinkContext const&)
+0 12712 8 8 3384 569 0 1109 0 0
+fn=ImageLoaderMachO::sniffLoadCommands(macho_header const*, char const*, bool, bool*, unsigned int*, unsigned int*, ImageLoader::LinkContext const&, linkedit_data_command const**, encryption_info_command const**)
+0 87929 235 38 14073 160 48 3043 8 7
+fn=ImageLoaderMachO::usablePrebinding(ImageLoader::LinkContext const&) const
+0 2214 2 2 861 1 0 492 0 0
+fn=ImageLoaderMachO::usesTwoLevelNameSpace() const
+0 2744 1 0 1568 49 0 392 0 0
+fn=ImageLoaderMachO::validateFirstPages(linkedit_data_command const*, int, unsigned char const*, unsigned long, long long, ImageLoader::LinkContext const&)
+0 1902 46 3 400 0 0 438 2 2
+fn=ImageLoaderMachOCompressed::bindAt(ImageLoader::LinkContext const&, unsigned long, unsigned char, char const*, unsigned char, long, long, char const*, ImageLoaderMachOCompressed::LastLookup*, bool)
+0 48624 2 2 15195 0 0 13169 0 0
+fn=ImageLoaderMachOCompressed::doBind(ImageLoader::LinkContext const&, bool)
+0 2132 4 4 533 2 0 533 0 0
+fn=ImageLoaderMachOCompressed::doBindFastLazySymbol(unsigned int, ImageLoader::LinkContext const&, void (*)(), void (*)())
+0 21168 11 7 6664 62 0 4704 16 3
+fn=ImageLoaderMachOCompressed::eachBind(ImageLoader::LinkContext const&, unsigned long (ImageLoaderMachOCompressed::*)(ImageLoader::LinkContext const&, unsigned long, unsigned char, char const*, unsigned char, long, long, char const*, ImageLoaderMachOCompressed::LastLookup*, bool))
+0 112889 23 23 30128 251 175 20667 0 0
+fn=ImageLoaderMachOCompressed::exportedSymbolAddress(ImageLoader::LinkContext const&, ImageLoader::Symbol const*, ImageLoader const*, bool) const
+0 35282 15 5 8140 10 0 7453 0 0
+fn=ImageLoaderMachOCompressed::findShallowExportedSymbol(char const*, ImageLoader const**) const
+0 100348 20 4 31365 1416 0 22932 22 5
+fn=ImageLoaderMachOCompressed::getAddressCoalIterator(ImageLoader::CoalIterator&, ImageLoader::LinkContext const&)
+0 284 2 1 101 2 0 63 0 0
+fn=ImageLoaderMachOCompressed::hasSubLibrary(ImageLoader::LinkContext const&, ImageLoader const*) const
+0 1660 0 0 664 0 0 332 0 0
+fn=ImageLoaderMachOCompressed::incrementCoalIterator(ImageLoader::CoalIterator&)
+0 4701 10 10 1194 12 7 947 1 0
+fn=ImageLoaderMachOCompressed::initializeCoalIterator(ImageLoader::CoalIterator&, unsigned int, unsigned int)
+0 54 2 2 12 0 0 36 2 0
+fn=ImageLoaderMachOCompressed::instantiateFromFile(char const*, int, unsigned char const*, unsigned long, unsigned long long, unsigned long long, stat const&, unsigned int, unsigned int, linkedit_data_command const*, encryption_info_command const*, ImageLoader::LinkContext const&)
+0 5170 11 11 1440 2 2 1242 8 8
+fn=ImageLoaderMachOCompressed::instantiateMainExecutable(macho_header const*, unsigned long, char const*, unsigned int, unsigned int, ImageLoader::LinkContext const&)
+0 64 6 6 12 0 0 19 0 0
+fn=ImageLoaderMachOCompressed::isSubframeworkOf(ImageLoader::LinkContext const&, ImageLoader const*) const
+0 1660 1 1 664 0 0 332 0 0
+fn=ImageLoaderMachOCompressed::libImage(unsigned int) const
+0 56353 6 1 20492 259 0 5123 0 0
+fn=ImageLoaderMachOCompressed::libIsUpward(unsigned int) const
+0 12960 2 1 4320 0 0 1080 0 0
+fn=ImageLoaderMachOCompressed::libReExported(unsigned int) const
+0 198407 3 0 72148 405 0 18037 0 0
+fn=ImageLoaderMachOCompressed::markLINKEDIT(ImageLoader::LinkContext const&, int)
+0 3297 44 4 1128 4 0 567 0 0
+fn=ImageLoaderMachOCompressed::rebase(ImageLoader::LinkContext const&, unsigned long)
+0 391014 15 15 130053 4698 4644 10025 4 0
+fn=ImageLoaderMachOCompressed::resolve(ImageLoader::LinkContext const&, char const*, unsigned char, long, ImageLoader const**, ImageLoaderMachOCompressed::LastLookup*, bool)
+0 73582 22 7 19621 7 0 16634 2 0
+fn=ImageLoaderMachOCompressed::resolveTwolevel(ImageLoader::LinkContext const&, char const*, ImageLoader const*, ImageLoader const*, unsigned int, bool, bool, ImageLoader const**)
+0 28638 6 3 9990 47 0 6660 58 14
+fn=ImageLoaderMachOCompressed::segmentCommandOffsets() const
+0 21054 2 1 7018 0 0 3509 0 0
+fn=ImageLoaderMachOCompressed::setDyldInfo(dyld_info_command const*)
+0 205 1 1 82 0 0 82 0 0
+fn=ImageLoaderMachOCompressed::setLibImage(unsigned int, ImageLoader*, bool, bool)
+0 5856 1 1 1098 4 0 732 29 0
+fn=ImageLoaderMachOCompressed::setSymbolTableInfo(macho_nlist const*, char const*, dysymtab_command const*)
+0 164 0 0 82 0 0 41 0 0
+fn=ImageLoaderMachOCompressed::updateUsesCoalIterator(ImageLoader::CoalIterator&, unsigned long, ImageLoader*, unsigned int, ImageLoader::LinkContext const&)
+0 2732 15 15 747 5 4 448 0 0
+fn=LockHelper::LockHelper()
+0 28 2 1 12 0 0 8 0 0
+fn=LockHelper::~LockHelper()
+0 24 0 0 8 1 0 4 0 0
+fn=NSVersionOfLinkTimeLibrary
+0 188 3 3 49 9 1 10 0 0
+fn=NXCountMapTable
+0 100 1 1 100 1 0 0 0 0
+fn=NXCreateHashTable
+0 25 2 2 8 0 0 9 0 0
+fn=NXCreateHashTableFromZone
+0 91 6 6 16 0 0 31 2 2
+fn=NXCreateMapTable
+0 84 1 1 28 0 0 32 0 0
+fn=NXCreateMapTableFromZone
+0 343 5 4 62 5 1 70 0 0
+fn=NXHashGet
+0 253 3 3 101 4 0 53 0 0
+fn=NXHashInsert
+0 353 6 4 124 0 0 82 0 0
+fn=NXMapGet
+0 7830 1 1 2088 0 0 2088 0 0
+fn=NXMapInsert
+0 46008 8 7 12553 0 0 7928 0 0
+fn=NXMapRemove
+0 4368 3 3 1904 0 0 1008 0 0
+fn=NXNextHashState
+0 128 3 3 36 0 0 12 0 0
+fn=NXNoEffectFree
+0 4 1 1 4 0 0 0 0 0
+fn=NXPtrHash
+0 96 0 0 24 0 0 0 0 0
+fn=TimeLogger::log(char const*)
+0 120 1 1 50 0 0 30 0 0
+fn=_Block_object_dispose
+0 6 1 1 2 0 0 0 0 0
+fn=_Block_use_RR2
+0 7 1 1 4 0 0 3 1 0
+fn=_GLOBAL__sub_I_iostream.cpp
+0 8 2 2 1 0 0 2 0 0
+fn=_GLOBAL__sub_I_objc_accessors.mm
+0 789 3 3 1 0 0 195 192 192
+fn=_GLOBAL__sub_I_objc_sync.mm
+0 326 1 1 0 0 0 128 64 64
+fn=_NSGetEnviron
+0 140 1 0 84 3 0 28 0 0
+fn=_NSGetMachExecuteHeader
+0 50 1 0 30 3 0 10 0 0
+fn=_NXHashRehashToCapacity
+0 150 6 3 32 0 0 48 1 1
+fn=_NXMapMember(_NXMapTable*, void const*, void**)
+0 33195 3 3 11427 45 0 5685 0 0
+fn=_NXMapRehash(_NXMapTable*)
+0 3264 3 3 720 3 0 379 0 0
+fn=__Balloc_D2A
+0 1165 5 5 281 5 0 260 0 0
+fn=__Bfree_D2A
+0 920 2 2 280 0 0 240 0 0
+fn=___ZN10objc_class25setInstancesRequireRawIsaEb_block_invoke
+0 650 2 2 200 0 0 0 0 0
+fn=___ZN16ImageLoaderMachO18doModInitFunctionsERKN11ImageLoader11LinkContextE_block_invoke
+0 44 3 1 28 3 0 4 0 0
+fn=___ZN4dyldL24checkSharedRegionDisableEPK11mach_header_block_invoke
+0 68 1 1 16 0 0 20 0 0
+fn=___ZNK5dyld311MachOParser14forEachSegmentEU13block_pointerFvPKcjjyyhRbE_block_invoke
+0 202 2 2 73 1 1 27 0 0
+fn=___ZNK5dyld311MachOParser8getSlideEv_block_invoke
+0 53 3 3 20 0 0 14 0 0
+fn=___xpc_activity_create_control_channel_block_invoke_2
+0 540 38 35 420 20 0 60 0 0
+fn=__atexit_init
+0 13 2 2 4 2 1 3 0 0
+fn=__bsdthread_register
+0 5 2 2 1 0 0 0 0 0
+fn=__bzero
+0 2206 8 4 90 2 0 919 228 228
+fn=__chk_assert_no_overlap_callback
+0 123 1 1 82 1 0 0 0 0
+fn=__chk_init
+0 17 1 1 3 0 0 6 0 0
+fn=__commpage_gettimeofday
+0 24 6 1 0 0 0 0 0 0
+fn=__commpage_gettimeofday_internal
+0 540 2 2 144 4 1 96 1 0
+fn=__confstr_init
+0 6 1 1 3 1 0 2 1 1
+fn=__cpu_indicator_init
+0 361 21 21 117 3 2 17 0 0
+fn=__csrctl
+0 11 1 1 1 0 0 0 0 0
+fn=__cxa_atexit
+0 34 3 3 8 0 0 12 0 0
+fn=__cxa_guard_acquire
+0 70 4 4 16 0 0 20 0 0
+fn=__cxa_guard_release
+0 46 2 2 6 0 0 16 1 0
+fn=__cxxabiv1::__class_type_info::search_above_dst(__cxxabiv1::__dynamic_cast_info*, void const*, void const*, int, bool) const
+0 39 5 5 19 4 0 10 0 0
+fn=__d2b_D2A
+0 1276 6 6 220 0 0 364 2 0
+fn=__dtoa
+0 6964 37 30 740 12 6 812 3 1
+fn=__environ_lock
+0 6 0 0 1 0 0 1 0 0
+fn=__environ_unlock
+0 5 1 1 1 0 0 1 0 0
+fn=__error
+0 3395 1 0 1358 3 0 0 0 0
+fn=__fcntl
+0 401 3 1 67 0 0 0 0 0
+fn=__fflush
+0 248 6 1 62 0 0 31 0 0
+fn=__findenv_locked
+0 10891 12 3 2319 62 11 55 0 0
+fn=__freedtoa
+0 200 1 1 40 0 0 60 0 0
+fn=__get_current_monetary_locale
+0 7 1 1 3 0 0 1 0 0
+fn=__get_current_numeric_locale
+0 7 1 1 3 0 0 1 0 0
+fn=__getcwd
+0 73 6 6 16 1 1 12 2 2
+fn=__getrlimit
+0 5 1 0 1 0 0 0 0 0
+fn=__guard_setup
+0 89 8 8 18 0 0 19 0 0
+fn=__ioctl
+0 10 4 4 2 0 0 0 0 0
+fn=__keymgr_initializer
+0 4 1 1 2 0 0 1 0 0
+fn=__libdarwin_init
+0 4 1 1 2 0 0 1 0 0
+fn=__libkernel_init
+0 328 2 2 41 5 0 42 1 1
+fn=__libkernel_voucher_init
+0 3 1 1 1 0 0 1 1 0
+fn=__libplatform_init
+0 14 1 1 3 0 0 4 0 0
+fn=__lo0bits_D2A
+0 382 3 3 60 0 0 32 0 0
+fn=__malloc_init
+0 68 8 8 16 3 1 16 1 1
+fn=__mmap
+0 790 1 1 158 0 0 0 0 0
+fn=__munmap
+0 195 0 0 39 0 0 0 0 0
+fn=__pfz_setup
+0 17 1 1 5 1 1 5 0 0
+fn=__private_getcwd
+0 36 4 4 7 0 0 7 1 1
+fn=__proc_info
+0 5 2 2 1 0 0 0 0 0
+fn=__pthread_init
+0 111 11 11 22 2 0 44 10 9
+fn=__pthread_once_handler
+0 28 1 1 12 2 0 11 0 0
+fn=__rv_alloc_D2A
+0 300 2 2 60 0 0 100 0 0
+fn=__sel_registerName(char const*, int, int)
+0 15040 8 6 3087 2 0 2252 1 0
+fn=__setenv_locked
+0 230 7 7 47 0 0 30 1 1
+fn=__sflush
+0 1302 3 3 279 0 0 248 1 1
+fn=__sfvwrite
+0 43271 18 14 11562 0 0 5721 2 1
+fn=__sinit
+0 458 4 4 19 0 0 328 74 73
+fn=__smakebuf
+0 47 3 3 11 0 0 14 0 0
+fn=__snprintf_chk
+0 27 3 3 5 0 0 8 0 0
+fn=__stack_logging_early_finished
+0 3 1 0 1 0 0 2 1 0
+fn=__swhatbuf
+0 41 4 4 8 0 0 8 0 0
+fn=__swrite
+0 186 4 2 62 0 0 31 0 0
+fn=__swsetup
+0 29 4 4 7 0 0 7 0 0
+fn=__sysctl
+0 10 2 1 2 0 0 0 0 0
+fn=__thread_selfid
+0 10 2 2 2 0 0 0 0 0
+fn=__ultoa
+0 2645 8 5 119 1 1 154 1 0
+fn=__v2printf
+0 9125 11 5 2399 3 0 1443 4 2
+fn=__vfprintf
+0 73200 144 97 14434 23 12 14311 19 9
+fn=__vsnprintf_chk
+0 2858 70 37 2714 48 0 72 0 0
+fn=__xlocale_init
+0 9 2 2 2 0 0 2 0 0
+fn=__xvprintf
+0 5088 4 3 1272 2 1 795 0 0
+fn=_dispatch_benchmark_init
+0 72 19 15 36 12 0 18 0 0
+fn=_dispatch_client_callout
+0 18 1 1 6 0 0 8 0 0
+fn=_dispatch_object_alloc
+0 1 1 1 0 0 0 0 0 0
+fn=_dispatch_queue_create_with_target
+0 142 11 11 20 4 0 19 0 0
+fn=_dispatch_queue_inherit_wlh_from_target
+0 50 5 5 13 4 1 3 0 0
+fn=_dispatch_strdup_if_mutable
+0 22 2 2 5 0 0 7 0 0
+fn=_dispatch_time_init
+0 1 1 1 1 0 0 0 0 0
+fn=_dispatch_vtable_init
+0 1 0 0 1 0 0 0 0 0
+fn=_dyld_debugger_notification
+0 8 0 0 4 0 0 2 0 0
+fn=_dyld_fast_stub_entry(void*, long)
+0 2944 4 2 785 3 1 589 0 0
+fn=_dyld_func_lookup
+0 1917 8 4 262 43 0 253 1 0
+fn=_dyld_get_image_slide
+0 62 5 4 15 4 1 13 0 0
+fn=_dyld_get_shared_cache_range
+0 33 4 2 8 0 0 8 0 0
+fn=_dyld_initializer
+0 21 2 2 5 0 0 6 0 0
+fn=_dyld_is_memory_immutable
+0 88 6 5 25 3 0 18 0 0
+fn=_dyld_objc_notify_register
+0 37 5 4 9 3 1 10 0 0
+fn=_dyld_register_func_for_add_image
+0 106 10 5 25 5 1 28 0 0
+fn=_dyld_start
+0 151 4 2 37 7 2 3 1 1
+fn=_getObjc2CategoryList(header_info const*, unsigned long*)
+0 30 1 1 5 2 0 0 0 0
+fn=_getObjc2ClassList(header_info const*, unsigned long*)
+0 60 1 1 10 0 0 0 0 0
+fn=_getObjc2MessageRefs(header_info const*, unsigned long*)
+0 30 0 0 5 2 0 0 0 0
+fn=_getObjc2NonlazyCategoryList(mach_header_64 const*, unsigned long*)
+0 25 0 0 0 0 0 0 0 0
+fn=_getObjc2NonlazyClassList(header_info const*, unsigned long*)
+0 30 1 1 5 3 0 0 0 0
+fn=_getObjc2NonlazyClassList(mach_header_64 const*, unsigned long*)
+0 45 1 1 0 0 0 0 0 0
+fn=_getObjc2ProtocolList(header_info const*, unsigned long*)
+0 30 1 1 5 0 0 0 0 0
+fn=_getObjc2ProtocolRefs(header_info const*, unsigned long*)
+0 30 0 0 5 2 0 0 0 0
+fn=_getObjc2SelectorRefs(header_info const*, unsigned long*)
+0 30 0 0 5 0 0 0 0 0
+fn=_getObjcImageInfo
+0 50 2 1 0 0 0 0 0 0
+fn=_get_cpu_capabilities
+0 3 1 1 2 1 1 0 0 0
+fn=_hash_bucket
+0 937 3 3 108 0 0 28 0 0
+fn=_init_clock_port
+0 26 2 2 6 0 0 6 0 0
+fn=_init_cpu_capabilities
+0 10 3 3 4 0 0 4 1 1
+fn=_isort
+0 10156 14 6 2374 0 0 1456 11 0
+fn=_kernelrpc_mach_port_construct_trap
+0 4 1 1 1 0 0 0 0 0
+fn=_kernelrpc_mach_port_deallocate_trap
+0 20 2 1 5 0 0 0 0 0
+fn=_kernelrpc_mach_port_mod_refs_trap
+0 12 1 0 3 0 0 0 0 0
+fn=_kernelrpc_mach_vm_allocate_trap
+0 164 0 0 41 0 0 0 0 0
+fn=_kernelrpc_mach_vm_map_trap
+0 32 2 2 8 0 0 0 0 0
+fn=_libc_fork_init
+0 10 1 1 5 0 0 4 1 1
+fn=_libc_initializer
+0 21 2 2 3 0 0 10 0 0
+fn=_libsecinit_initialize_once
+0 22 1 1 8 0 0 5 0 0
+fn=_libsecinit_initializer
+0 18 2 2 5 3 1 2 0 0
+fn=_libsecinit_setup_app_sandbox
+0 59 12 12 26 4 0 17 0 0
+fn=_libsecinit_setup_secinitd_client
+0 47 6 6 20 1 0 10 0 0
+fn=_libtrace_init
+0 38 6 6 7 2 0 16 4 4
+fn=_libxpc_initializer
+0 173 17 17 29 8 0 38 3 3
+fn=_malloc_initialize
+0 360 8 8 51 7 1 53 1 0
+fn=_mapPtrHash(_NXMapTable*, void const*)
+0 336 1 1 112 0 0 0 0 0
+fn=_mapStrHash(_NXMapTable*, void const*)
+0 104757 2 2 18980 145 105 0 0 0
+fn=_mapStrIsEqual(_NXMapTable*, void const*, void const*)
+0 28628 1 1 6277 19 0 1760 0 0
+fn=_objc_init
+0 40 2 1 11 2 1 14 0 0
+fn=_os_alloc
+0 135 7 3 44 10 1 17 0 0
+fn=_os_alloc_once
+0 68 3 1 16 0 0 24 0 0
+fn=_os_alloc_slow
+0 57 4 4 16 0 0 15 2 1
+fn=_os_nospin_lock_lock
+0 290 8 2 174 14 0 0 0 0
+fn=_os_nospin_lock_unlock
+0 348 4 1 232 1 0 0 0 0
+fn=_os_object_alloc_realized
+0 221 1 1 52 0 0 52 0 0
+fn=_os_object_init
+0 23 3 2 6 2 0 9 2 1
+fn=_os_object_release
+0 441 1 1 196 0 0 0 0 0
+fn=_os_object_retain
+0 392 0 0 196 0 0 0 0 0
+fn=_os_once
+0 114 2 0 48 3 0 24 0 0
+fn=_os_trace_create_debug_control_port
+0 29 3 3 11 3 1 7 0 0
+fn=_owned_ptr_add
+0 38 2 2 13 0 0 8 0 0
+fn=_owned_ptr_alloc
+0 23 2 2 4 0 0 8 1 0
+fn=_owned_ptr_search
+0 28 2 2 10 0 0 4 0 0
+fn=_platform_bzero$VARIANT$Base
+0 2766 9 3 282 0 0 1069 193 188
+fn=_platform_memchr
+0 24 6 2 6 3 0 0 0 0
+fn=_platform_memchr$VARIANT$Base
+0 23749 10 4 3370 17 10 762 0 0
+fn=_platform_memcmp
+0 1433 6 5 366 0 0 86 0 0
+fn=_platform_memmove
+0 50 6 2 10 4 0 0 0 0
+fn=_platform_memmove$VARIANT$Nehalem
+0 15276 9 6 2252 1 1 1647 16 13
+fn=_platform_memset
+0 10 2 2 2 1 0 0 0 0
+fn=_platform_memset$VARIANT$Base
+0 1361 5 1 138 4 1 138 0 0
+fn=_platform_strchr
+0 8 2 1 2 1 0 0 0 0
+fn=_platform_strchr$VARIANT$Base
+0 32 2 2 5 0 0 1 0 0
+fn=_platform_strcmp
+0 74584 10 5 15552 33 6 1250 0 0
+fn=_platform_strncmp
+0 66931 4 2 15972 505 11 1400 0 0
+fn=_program_vars_init
+0 14 2 2 7 0 0 6 1 1
+fn=_pthread_bsdthread_init
+0 48 3 3 9 1 1 13 0 0
+fn=_pthread_cond_check_init_slow
+0 118 5 5 24 3 1 28 0 0
+fn=_pthread_exit_if_canceled
+0 147 4 4 38 1 0 36 0 0
+fn=_pthread_fork_child_postinit
+0 109 21 13 53 11 0 28 0 0
+fn=_pthread_key_global_init
+0 22 1 1 3 0 0 7 1 1
+fn=_pthread_main_thread_init
+0 46 5 5 9 0 0 23 0 0
+fn=_pthread_mutex_check_init_slow
+0 618 27 7 105 17 2 133 5 5
+fn=_pthread_mutex_global_init
+0 15 1 1 4 0 0 4 0 0
+fn=_pthread_mutex_lock_slow
+0 10944 11 3 2561 2 0 1371 2 1
+fn=_pthread_mutex_unlock_slow
+0 17869 26 7 2505 2 0 1336 0 0
+fn=_pthread_qos_class_encode
+0 32 2 1 4 2 1 0 0 0
+fn=_pthread_rwlock_check_init_slow
+0 125 5 5 24 1 0 36 5 4
+fn=_pthread_rwlock_lock_slow
+0 200 7 7 30 0 0 32 1 0
+fn=_pthread_set_main_qos
+0 2 1 1 1 0 0 1 0 0
+fn=_pthread_set_self
+0 39 5 5 5 0 0 14 1 1
+fn=_qsort
+0 22252 82 30 5173 0 0 3242 27 0
+fn=_read_images
+0 5744 34 34 1757 227 39 815 1 0
+fn=_setcontext
+0 199 6 6 186 3 0 11 1 0
+fn=_should_do_early_init
+0 25 2 2 2 0 0 10 0 0
+fn=_simd_round_f8
+0 3090 23 16 495 29 17 0 0 0
+fn=_simple_asl_init
+0 37 3 3 10 3 1 9 0 0
+fn=_simple_asl_init_context
+0 4 1 1 1 0 0 2 0 0
+fn=_simple_getenv
+0 3677 6 6 464 5 0 463 0 0
+fn=_swrite
+0 961 10 4 310 0 0 217 0 0
+fn=_thread_set_tsd_base
+0 8 2 2 2 0 0 0 0 0
+fn=_voucher_init
+0 1801 1 1 2 0 0 514 64 64
+fn=_vsnprintf
+0 101 8 8 11 0 0 58 0 0
+fn=_xpc_base_create
+0 24 2 2 0 0 0 0 0 0
+fn=_xpc_calloc
+0 15 1 1 3 0 0 4 0 0
+fn=_xpc_collect_environment
+0 434 5 5 56 4 0 61 1 1
+fn=_xpc_collect_images
+0 25 1 1 6 0 0 8 0 0
+fn=_xpc_copy_entitlements
+0 13 1 1 4 0 0 4 0 0
+fn=_xpc_copy_entitlements_data
+0 72 7 5 24 2 0 18 0 0
+fn=_xpc_create_bootstrap_pipe
+0 20 1 1 8 0 0 6 0 0
+fn=_xpc_dictionary_insert
+0 541 4 4 109 0 0 158 5 5
+fn=_xpc_dyld_image_callback
+0 1438 4 4 451 42 1 329 0 0
+fn=_xpc_get_csops_blob
+0 44 2 2 10 0 0 12 0 0
+fn=_xpc_has_prefix
+0 1332 1 1 296 0 0 370 0 0
+fn=_xpc_install_dispatch_hooks
+0 2 1 1 0 0 0 0 0 0
+fn=_xpc_is_being_debugged
+0 22 2 2 8 1 0 4 0 0
+fn=_xpc_is_being_debugged_once
+0 13 0 0 3 0 0 6 0 0
+fn=_xpc_ktrace_pid0
+0 60 1 1 8 0 0 16 0 0
+fn=_xpc_mach_port_retain_send
+0 21 0 0 6 0 0 0 0 0
+fn=_xpc_malloc
+0 98 1 1 21 0 0 28 0 0
+fn=_xpc_pid_is_being_debugged
+0 39 3 3 10 0 0 12 0 0
+fn=_xpc_pipe_create
+0 40 3 3 7 0 0 11 0 0
+fn=_xpc_string_create
+0 154 2 2 28 0 0 49 0 0
+fn=_xpc_try_strdup
+0 7 0 0 0 0 0 0 0 0
+fn=access
+0 6 1 1 0 0 0 0 0 0
+fn=addImagesToAllImages(unsigned int, dyld_image_info const*)
+0 2094 87 4 861 2 0 534 50 16
+fn=addMethod(objc_class*, objc_selector*, void (*)(), char const*, bool)
+0 28 2 2 8 0 0 7 0 0
+fn=addNamedClass(objc_class*, char const*, objc_class*)
+0 2040 2 2 425 0 0 510 0 0
+fn=addNonSharedCacheImageUUID(dyld_uuid_info const&)
+0 994 3 3 371 0 0 280 32 10
+fn=addSubclass(objc_class*, objc_class*)
+0 5524 4 4 1443 1 0 999 0 0
+fn=add_class_to_loadable_list
+0 1504 4 2 438 3 0 398 13 7
+fn=aleatorio
+0 480 2 2 234 0 0 106 0 0
+fn=allImagesCount()
+0 171 3 1 76 6 0 19 0 0
+fn=allocBuckets(void*, unsigned int)
+0 3810 1 1 39 0 0 946 203 182
+fn=appendHeader
+0 125 4 4 42 2 0 34 0 0
+fn=arc4_fetch
+0 34 3 3 10 0 0 12 1 1
+fn=arc4_stir
+0 16413 4 4 2822 7 7 2572 0 0
+fn=arc4random
+0 167 5 5 40 0 0 35 1 1
+fn=arr_init
+0 721 2 2 3 0 0 517 0 0
+fn=ascendente
+0 346560 6 1 189024 0 0 63024 1362 1000
+fn=atexit_register
+0 78 4 4 24 4 0 26 2 1
+fn=attachCategories(objc_class*, locstamped_category_list_t*, bool)
+0 2128 2 2 784 0 0 784 0 0
+fn=bcmp
+0 52257 5 4 11604 1436 1430 82 0 0
+fn=bcopy
+0 4 1 1 0 0 0 0 0 0
+fn=bzero
+0 42 1 1 0 0 0 0 0 0
+fn=call_load_methods
+0 1000 10 5 272 1 0 136 0 0
+fn=calloc
+0 2358 4 2 393 0 0 524 0 0
+fn=category_t** getDataSection<category_t*>(mach_header_64 const*, char const*, unsigned long*, unsigned long*)
+0 440 5 2 70 0 0 100 0 0
+fn=cerror
+0 168 2 1 36 0 0 60 0 0
+fn=cerror_nocancel
+0 136 7 2 34 1 0 34 7 2
+fn=class_createInstance
+0 494 3 3 130 17 0 91 0 0
+fn=classref** getDataSection<classref*>(mach_header_64 const*, char const*, unsigned long*, unsigned long*)
+0 792 9 3 168 0 0 196 0 0
+fn=close
+0 210 1 1 42 0 0 0 0 0
+fn=close$NOCANCEL
+0 5 1 1 1 0 0 0 0 0
+fn=comprobarOrd
+0 1588 2 2 624 0 0 212 0 0
+fn=copySwiftV1MangledName(char const*, bool)
+0 24129 2 2 4439 0 0 1169 0 0
+fn=create_scalable_szone
+0 117 10 10 13 2 0 37 7 7
+fn=csops
+0 17 1 1 1 0 0 0 0 0
+fn=csr_check
+0 22 2 2 4 0 0 6 1 1
+fn=default_zone_calloc
+0 2745 6 2 1096 34 0 412 0 0
+fn=default_zone_free_definite_size
+0 380 4 2 152 7 0 57 0 0
+fn=default_zone_malloc
+0 882 10 1 343 26 0 147 0 0
+fn=default_zone_realloc
+0 40 2 2 16 0 0 6 0 0
+fn=disableSharedCacheOptimizations
+0 4 1 1 1 0 0 2 1 1
+fn=dispatch_mach_hooks_install_4libxpc
+0 4 1 1 2 1 0 0 0 0
+fn=dispatch_once_f
+0 46 2 1 16 0 0 8 0 0
+fn=dispatch_queue_attr_make_with_autorelease_frequency
+0 49 4 4 4 2 0 0 0 0
+fn=dispatch_queue_create
+0 3 0 0 0 0 0 0 0 0
+fn=dyld3::MachOParser::MachOParser(mach_header const*, bool)
+0 5 1 1 2 0 0 2 0 0
+fn=dyld3::MachOParser::forEachLoadCommand(Diagnostics&, void ( block_pointer)(load_command const*, bool&)) const
+0 423 4 4 121 0 0 35 0 0
+fn=dyld3::MachOParser::forEachSegment(void ( block_pointer)(char const*, unsigned int, unsigned int, unsigned long long, unsigned long long, unsigned char, bool&)) const
+0 35 3 3 5 0 0 14 0 0
+fn=dyld3::MachOParser::getSlide() const
+0 48 4 4 7 0 0 21 0 0
+fn=dyld3::_dyld_fork_child()
+0 61 12 10 29 12 0 16 0 0
+fn=dyld3::findInSharedCacheImage(dyld3::SharedCacheLoadInfo const&, char const*, dyld3::SharedCacheFindDylibResults*)
+0 1240 5 5 440 0 0 280 3 3
+fn=dyld3::kdebug_trace_dyld_duration(unsigned int, unsigned long long, unsigned long long, void ( block_pointer)())
+0 104 4 0 28 0 0 32 0 0
+fn=dyld3::kdebug_trace_dyld_image(unsigned int, unsigned char const (*) [16], fsobj_id, fsid, mach_header const*)
+0 1290 3 1 215 0 0 172 1 0
+fn=dyld3::kdebug_trace_dyld_signpost(unsigned int, unsigned long long, unsigned long long)
+0 44 7 4 12 0 0 12 2 1
+fn=dyld3::launch_cache::MemoryRange::intersects(dyld3::launch_cache::MemoryRange const&) const
+0 52 2 2 24 0 0 4 0 0
+fn=dyld3::loader::bootArgsContains(char const*)
+0 26 4 4 8 0 0 6 0 0
+fn=dyld3::pathIsInSharedCacheImage(dyld3::SharedCacheLoadInfo const&, char const*)
+0 195 2 2 78 0 0 0 0 0
+fn=dyld::FileOpener::~FileOpener()
+0 320 1 1 120 0 0 80 0 0
+fn=dyld::_main(macho_header const*, unsigned long, int, char const**, char const**, char const**, unsigned long*)
+0 1507 69 68 431 40 4 236 14 8
+fn=dyld::addDynamicReference(ImageLoader*, ImageLoader*)
+0 279 4 4 75 1 0 62 0 0
+fn=dyld::addImage(ImageLoader*)
+0 4905 86 6 1797 27 0 941 5 5
+fn=dyld::addMappedRange(ImageLoader*, unsigned long, unsigned long)
+0 6194 4 4 1188 13 0 332 8 0
+fn=dyld::checkEnvironmentVariables(char const**)
+0 625 6 6 50 0 0 88 0 0
+fn=dyld::checkLoadCommandEnvironmentVariables()
+0 119 4 4 42 0 0 7 0 0
+fn=dyld::checkandAddImage(ImageLoader*, dyld::LoadContext const&)
+0 13547 83 5 4154 97 0 2119 0 0
+fn=dyld::clearAllDepths()
+0 426 3 2 90 2 0 84 5 0
+fn=dyld::fastBindLazySymbol(ImageLoader**, unsigned long)
+0 4758 5 3 1876 11 0 816 0 0
+fn=dyld::fatFindBest(fat_header const*, unsigned long long*, unsigned long long*)
+0 6596 9 9 1432 10 0 429 3 2
+fn=dyld::findImageContainingAddress(void const*)
+0 164 2 1 41 0 0 41 0 0
+fn=dyld::findLoadedImage(stat const&)
+0 8960 79 2 1920 0 0 1020 0 0
+fn=dyld::findMappedRange(unsigned long)
+0 24246 6 2 6764 83 0 98 0 0
+fn=dyld::getCoalescedImages(ImageLoader**, unsigned int*)
+0 363 1 1 175 25 0 52 1 0
+fn=dyld::hasRestrictedSegment(macho_header const*)
+0 150 3 3 38 2 2 11 0 0
+fn=dyld::imMemorySharedCacheHeader()
+0 10 1 0 6 1 0 2 0 0
+fn=dyld::imageCount()
+0 85 5 2 30 1 0 25 0 0
+fn=dyld::imageSorter(void const*, void const*)
+0 8334 4 0 4167 0 0 1389 0 0
+fn=dyld::initializeMainExecutable()
+0 59 7 6 17 2 0 12 1 0
+fn=dyld::isCompatibleMachO(unsigned char const*, char const*)
+0 1476 3 3 451 1 1 0 0 0
+fn=dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*, unsigned int&)
+0 6954 2 2 732 0 0 3660 0 0
+fn=dyld::link(ImageLoader*, bool, bool, ImageLoader::RPathChain const&, unsigned int)
+0 86 6 3 24 3 0 22 1 0
+fn=dyld::load(char const*, dyld::LoadContext const&, unsigned int&)
+0 18152 9 9 4723 24 1 4317 12 4
+fn=dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0 14245 4 4 5291 1 0 4070 16 8
+fn=dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0 13414 127 5 4146 14 0 2442 7 3
+fn=dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0 23199 7 7 5698 2 0 5698 40 31
+fn=dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0 14245 5 3 4477 1 0 3256 22 19
+fn=dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, unsigned int&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0 148892 131 13 60245 75 1 12459 51 48
+fn=dyld::loadPhase6(int, stat const&, char const*, dyld::LoadContext const&)
+0 4305 11 11 955 7 7 839 10 7
+fn=dyld::my_open(char const*, int, int)
+0 880 1 1 200 0 0 240 0 0
+fn=dyld::my_stat(char const*, stat*)
+0 600 1 1 160 0 0 160 0 0
+fn=dyld::notifyBatch(dyld_image_states, bool)
+0 64 1 0 8 0 0 8 0 0
+fn=dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), bool, bool)
+0 13197 53 23 3168 124 2 2392 35 0
+fn=dyld::notifyKernel(ImageLoader const&, bool)
+0 2009 4 3 738 0 0 451 0 0
+fn=dyld::notifyKernelAboutImage(macho_header const*, char const*)
+0 134 2 2 34 6 6 2 0 0
+fn=dyld::notifySingle(dyld_image_states, ImageLoader const*, ImageLoader::InitializerTimingList*)
+0 12135 136 9 3255 51 2 3128 1 0
+fn=dyld::parseColonList(char const*, char const*)
+0 819 8 8 127 0 0 15 1 1
+fn=dyld::paths_expand_roots(char const**, char const*, char const*)
+0 146 3 3 25 0 0 33 0 0
+fn=dyld::processDyldEnvironmentVariable(char const*, char const*, char const*)
+0 263 18 18 13 1 1 58 1 1
+fn=dyld::processIsRestricted()
+0 5 1 0 3 0 0 1 0 0
+fn=dyld::registerAddCallback(void (*)(mach_header const*, long))
+0 2541 8 3 1017 109 0 390 2 1
+fn=dyld::registerDOFs(std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> > const&)
+0 337 8 8 110 4 0 66 3 2
+fn=dyld::registerObjCNotifiers(void (*)(unsigned int, char const* const*, mach_header const* const*), void (*)(char const*, mach_header const*), void (*)(char const*, mach_header const*))
+0 481 3 3 211 40 0 55 2 0
+fn=dyld::setContext(macho_header const*, int, char const**, char const**, char const**)
+0 105 8 8 8 0 0 34 5 5
+fn=dyld::setErrorStrings(unsigned int, char const*, char const*, char const*)
+0 44 1 1 12 0 0 20 4 0
+fn=dyld::setNewProgramVars(ProgramVars const&)
+0 26 2 1 15 0 0 10 1 1
+fn=dyld::updateAllImages(dyld_image_states, unsigned int, dyld_image_info const*)
+0 410 1 1 123 0 0 82 0 0
+fn=dyld_get_program_sdk_version
+0 36 3 1 8 1 0 8 0 0
+fn=dyld_get_sdk_version
+0 132 9 3 40 0 0 28 0 0
+fn=dyld_image_path_containing_address
+0 1324 3 3 281 0 0 281 0 0
+fn=dyld_process_is_restricted
+0 14 2 2 4 0 0 2 0 0
+fn=dyld_stub_binder
+0 91349 18 7 11172 29 0 29013 104 32
+fn=dyldbootstrap::start(macho_header const*, int, char const**, long, macho_header const*, unsigned long*)
+0 11158 9 8 2788 281 281 22 2 2
+fn=environ_init
+0 986 10 10 44 3 0 148 1 0
+fn=exception_init
+0 7 1 1 2 0 0 3 1 1
+fn=fcntl
+0 2886 4 4 468 0 0 936 19 16
+fn=fegetenv
+0 31 2 2 13 0 0 16 0 0
+fn=fesetenv
+0 31 2 2 15 0 0 12 0 0
+fn=fixupMethodList(method_list_t*, bool, bool)
+0 7000 3 3 1480 57 0 1616 0 0
+fn=flockfile
+0 2544 2 2 954 3 0 1113 0 0
+fn=flsl
+0 45 3 1 9 0 0 0 0 0
+fn=free
+0 4211 27 9 1533 8 0 1283 0 0
+fn=freeBuckets(NXHashTable*, int)
+0 120 2 2 36 0 0 30 0 0
+fn=free_small
+0 265 17 17 73 0 0 43 0 0
+fn=free_tiny
+0 1276 21 10 370 0 0 228 0 0
+fn=free_tiny_botch
+0 284 22 20 220 19 0 32 0 0
+fn=fstat$INODE64
+0 10 2 2 2 0 0 0 0 0
+fn=funlockfile
+0 2544 2 2 954 0 0 1113 0 0
+fn=gdb_image_notifier(dyld_image_mode, unsigned int, dyld_image_info const*)
+0 306 2 2 51 0 0 47 3 0
+fn=getClass(char const*)
+0 1785 1 1 340 0 0 425 0 0
+fn=getClass_impl(char const*)
+0 1275 2 2 255 0 0 340 0 0
+fn=getLibobjcInitializers(mach_header_64 const*, unsigned long*)
+0 5 1 1 0 0 0 0 0 0
+fn=getMethodNoSuper_nolock(objc_class*, objc_selector*)
+0 39 3 3 9 0 0 6 0 0
+fn=getPreoptimizedClass
+0 2380 2 2 1105 1 0 595 0 0
+fn=getPreoptimizedClassUnreasonableCount
+0 250 2 2 100 1 0 0 0 0
+fn=getProtocol(char const*)
+0 1931 1 1 340 0 0 507 0 0
+fn=getVersionLoadCommandInfo(mach_header const*, unsigned int*, unsigned int*, unsigned int*)
+0 904 11 4 116 30 0 24 0 0
+fn=get_tiny_free_size
+0 646 5 1 136 7 0 34 9 1
+fn=get_tiny_previous_free_msize
+0 247 3 1 52 5 0 13 1 0
+fn=getcwd
+0 5 2 2 1 0 0 1 0 0
+fn=getentropy
+0 15 2 2 3 0 0 0 0 0
+fn=getenv
+0 504 5 2 105 0 0 147 0 0
+fn=getpid
+0 54 6 4 20 2 1 0 0 0
+fn=getrlimit
+0 2 1 1 0 0 0 0 0 0
+fn=getsectbyname
+0 42 1 1 9 0 0 12 0 0
+fn=getsectbynamefromheader_64
+0 690 4 4 210 11 0 60 0 0
+fn=getsectiondata
+0 28538 12 5 6264 430 0 2753 3 0
+fn=getsegmentdata
+0 1324 2 2 349 100 0 75 0 0
+fn=gettimeofday
+0 288 11 3 60 0 0 60 2 0
+fn=hasLoadMethods(mach_header_64 const*)
+0 101 4 2 25 0 0 21 0 0
+fn=hashPrototype(void const*, void const*)
+0 307 5 5 105 1 0 64 0 0
+fn=header_info::getHeaderInfoRW()
+0 2243 34 23 1750 44 0 145 0 0
+fn=header_info::isPreoptimized() const
+0 80 1 1 40 0 0 0 0 0
+fn=heapsort
+0 38 2 2 14 0 0 12 0 0
+fn=host_get_clock_service
+0 59 5 5 11 0 0 14 0 0
+fn=host_info
+0 166 15 15 28 1 0 36 1 1
+fn=host_self_trap
+0 12 0 0 3 0 0 0 0 0
+fn=inicializar_semilla
+0 10 1 1 2 0 0 3 0 0
+fn=ioctl
+0 58 6 6 10 0 0 22 0 0
+fn=isEqualPrototype(void const*, void const*, void const*)
+0 69 0 0 39 1 0 0 0 0
+fn=isPreoptimized
+0 2 0 0 2 1 0 0 0 0
+fn=isatty
+0 27 3 3 7 0 0 4 0 0
+fn=issetugid
+0 10 3 3 2 0 0 0 0 0
+fn=kdebug_is_enabled
+0 1440 6 3 480 3 1 288 0 0
+fn=kdebug_trace
+0 2250 8 4 630 0 0 720 0 0
+fn=libSystem_initializer
+0 51 5 4 5 0 0 21 0 0
+fn=libdispatch_init
+0 66 5 5 6 3 1 16 2 1
+fn=list_array_tt<method_t, method_list_t>::attachLists(method_list_t* const*, unsigned int)
+0 2520 1 1 756 0 0 672 0 0
+fn=list_array_tt<property_t, property_list_t>::attachLists(property_list_t* const*, unsigned int)
+0 1380 1 1 414 0 0 368 0 0
+fn=list_array_tt<unsigned long, protocol_list_t>::attachLists(protocol_list_t* const*, unsigned int)
+0 2760 2 2 828 0 0 736 0 0
+fn=listar_vector
+0 1728 3 2 656 0 0 376 0 0
+fn=load_images
+0 105 6 3 11 0 0 40 0 0
+fn=localeconv_l
+0 3114 11 7 996 8 0 508 1 1
+fn=lock_init
+0 15 0 0 2 0 0 6 2 1
+fn=mach_absolute_time
+0 4853 13 0 1688 33 0 211 0 0
+fn=mach_host_self
+0 3 2 2 0 0 0 0 0 0
+fn=mach_init
+0 20 2 2 6 2 2 6 0 0
+fn=mach_init_doit
+0 54 6 6 6 0 0 24 1 1
+fn=mach_init_old
+0 90 23 11 30 17 0 30 0 0
+fn=mach_msg
+0 192 15 8 48 0 0 60 0 0
+fn=mach_msg_trap
+0 24 2 0 6 0 0 0 0 0
+fn=mach_port_construct
+0 19 2 2 6 0 0 6 0 0
+fn=mach_port_deallocate
+0 65 5 3 20 0 0 20 0 0
+fn=mach_port_mod_refs
+0 57 2 1 18 0 0 18 0 0
+fn=mach_reply_port
+0 16 1 1 4 0 0 0 0 0
+fn=mach_thread_self
+0 3 1 0 0 0 0 0 0 0
+fn=mach_vm_allocate
+0 1148 84 6 328 0 0 328 1 1
+fn=mach_vm_map
+0 392 5 4 112 2 0 72 1 0
+fn=main
+0 272 4 4 228 8 1 23 0 0
+fn=malloc
+0 1994 10 3 562 20 1 376 2 1
+fn=malloc_default_zone
+0 14 0 0 7 0 0 0 0 0
+fn=malloc_set_zone_name
+0 56 3 3 7 0 0 13 0 0
+fn=malloc_zone_calloc
+0 4521 8 3 1233 23 1 822 0 0
+fn=malloc_zone_from_ptr
+0 756 3 3 270 10 0 144 0 0
+fn=malloc_zone_malloc
+0 1550 17 3 500 37 0 300 0 0
+fn=malloc_zone_realloc
+0 66 3 3 22 0 0 12 0 0
+fn=malloc_zone_register_while_locked
+0 56 7 7 19 2 0 13 1 1
+fn=map_images
+0 22 3 2 4 1 0 7 0 0
+fn=map_images_nolock
+0 671 17 17 141 33 1 109 2 1
+fn=mbtowc_l
+0 29 4 4 2 1 0 16 2 2
+fn=memchr
+0 2348 4 4 328 21 21 60 0 0
+fn=memcpy
+0 2008 20 16 370 14 1 333 20 20
+fn=message_ref_t* getDataSection<message_ref_t>(mach_header_64 const*, char const*, unsigned long*, unsigned long*)
+0 220 1 1 35 0 0 50 0 0
+fn=microsegundos
+0 231 1 1 66 4 0 33 1 0
+fn=mig_get_reply_port
+0 30 5 3 13 0 0 3 0 0
+fn=mmap
+0 4857 2 2 1106 6 0 948 1 1
+fn=mprotect
+0 40 1 1 8 0 0 0 0 0
+fn=munmap
+0 624 44 2 156 0 0 117 0 0
+fn=mustReadClasses(header_info*)
+0 90 2 2 25 0 0 30 0 0
+fn=mvm_allocate_pages
+0 492 7 7 101 9 0 93 3 0
+fn=mvm_allocate_pages_securely
+0 116 2 2 28 0 0 28 1 0
+fn=mvm_protect
+0 86 3 3 22 0 0 18 0 0
+fn=names_match(char const*, char const*)
+0 65 4 4 9 0 0 14 0 0
+fn=notifyGDB(dyld_image_states, unsigned int, dyld_image_info const*)
+0 60 2 2 21 6 1 17 0 0
+fn=objc_autoreleasePoolPop
+0 4 0 0 0 0 0 0 0 0
+fn=objc_autoreleasePoolPush
+0 60 4 2 16 2 1 12 0 0
+fn=objc_class::getLoadMethod()
+0 2192 6 3 833 224 0 451 1 0
+fn=objc_class::setHasCustomAWZ(bool)
+0 3219 3 3 1554 0 0 777 0 0
+fn=objc_class::setHasCustomRR(bool)
+0 2886 2 2 1443 2 0 777 0 0
+fn=objc_class::setInstancesRequireRawIsa(bool)
+0 5724 8 8 1937 3 0 1643 0 0
+fn=objc_image_info* getDataSection<objc_image_info>(mach_header_64 const*, char const*, unsigned long*, unsigned long*)
+0 310 2 2 70 0 0 80 0 0
+fn=objc_selector** getDataSection<objc_selector*>(mach_header_64 const*, char const*, unsigned long*, unsigned long*)
+0 160 3 3 35 0 0 40 0 0
+fn=open
+0 210 1 1 42 0 0 0 0 0
+fn=open$NOCANCEL
+0 5 1 1 1 0 0 0 0 0
+fn=operator delete(void*)
+0 66 0 0 11 0 0 11 0 0
+fn=operator new(unsigned long)
+0 448 4 2 84 0 0 112 2 1
+fn=operator new[](unsigned long)
+0 24 1 1 6 0 0 6 0 0
+fn=ord_sel
+0 800484182 5 3 431051868 1183464 0 61636370 0 0
+fn=ord_shell
+0 4176 4 4 1880 0 0 714 0 0
+fn=os_activity_messages_for_thread
+0 48 17 17 16 9 0 16 1 0
+fn=os_unfair_lock_lock
+0 20 2 2 12 1 1 0 0 0
+fn=os_unfair_lock_lock_with_options
+0 204 7 2 102 11 1 0 0 0
+fn=os_unfair_lock_unlock
+0 228 1 1 152 0 0 0 0 0
+fn=pow$fenv_access_off
+0 8 2 2 4 2 0 1 0 0
+fn=pread
+0 400 1 1 80 0 0 0 0 0
+fn=preopt_init
+0 29 3 3 8 2 2 7 2 1
+fn=preoptimizedHinfoForHeader
+0 30 1 1 10 0 0 0 0 0
+fn=preoptimizedSelectors
+0 5 1 1 2 0 0 0 0 0
+fn=prepareMethodLists(objc_class*, method_list_t**, int, bool, bool)
+0 4368 4 4 1176 11 0 756 0 0
+fn=prepare_load_methods(mach_header_64 const*)
+0 480 5 2 136 10 0 132 0 0
+fn=printf
+0 7195 12 4 1590 7 0 2584 5 3
+fn=proc_regionfilename
+0 23 2 2 3 0 0 4 1 1
+fn=protocol_t** getDataSection<protocol_t*>(mach_header_64 const*, char const*, unsigned long*, unsigned long*)
+0 380 2 2 70 0 0 90 0 0
+fn=protocols()
+0 828 1 1 366 1 0 95 0 0
+fn=pthread_cond_broadcast
+0 1772 5 5 382 1 0 324 0 0
+fn=pthread_getspecific
+0 482 2 0 482 8 1 0 0 0
+fn=pthread_key_create
+0 24 1 1 5 1 1 7 1 1
+fn=pthread_key_init_np
+0 317 5 2 66 11 5 75 0 0
+fn=pthread_mach_thread_np
+0 38 1 1 14 1 0 10 0 0
+fn=pthread_mutex_lock
+0 2631 7 2 525 14 3 59 0 0
+fn=pthread_mutex_unlock
+0 2706 10 3 419 3 0 63 0 0
+fn=pthread_once
+0 32 2 2 8 1 0 8 0 0
+fn=pthread_rwlock_unlock
+0 6006 9 4 910 2 0 546 0 0
+fn=pthread_rwlock_wrlock
+0 3303 9 3 536 7 1 89 0 0
+fn=pthread_self
+0 4 1 1 4 1 0 0 0 0
+fn=pthread_setspecific
+0 19 2 1 4 0 0 2 0 0
+fn=qos_class_main
+0 24 2 2 4 2 0 0 0 0
+fn=qsort
+0 207 5 2 45 0 0 54 2 0
+fn=rack_init
+0 232 6 6 40 2 1 64 16 16
+fn=rack_region_insert
+0 196 8 6 72 4 0 28 0 0
+fn=rand
+0 640 2 2 96 0 0 64 0 0
+fn=rb_tree_init
+0 10 1 1 2 0 0 6 1 1
+fn=read$NOCANCEL
+0 5 1 1 1 0 0 0 0 0
+fn=readClass(objc_class*, bool, bool)
+0 6417 5 5 1781 218 3 877 0 0
+fn=realizeClass(objc_class*)
+0 23255 19 19 6239 321 0 4090 0 0
+fn=realloc
+0 234 12 4 58 0 0 44 0 0
+fn=recursive_mutex_tt<false>::lock()
+0 32 4 2 8 0 0 8 0 0
+fn=recursive_mutex_tt<false>::unlock()
+0 32 2 1 8 0 0 8 0 0
+fn=registerThreadHelpers(dyld::LibSystemHelpers const*)
+0 6 2 2 2 0 0 2 0 0
+fn=remapClass(objc_class*)
+0 8923 4 2 2624 3 1 1575 0 0
+fn=rwlock_tt<false>::unlockWrite()
+0 1365 4 2 364 1 0 364 0 0
+fn=rwlock_tt<false>::write()
+0 2093 5 2 546 16 1 364 0 0
+fn=schedule_class_load(objc_class*)
+0 2059 2 1 870 100 0 436 0 0
+fn=search_method_list(method_list_t const*, objc_selector*)
+0 113 3 3 12 0 0 1 0 0
+fn=sel_init
+0 138 11 11 3 0 0 47 3 2
+fn=sel_lock
+0 170 0 0 0 0 0 0 0 0
+fn=sel_registerNameNoLock
+0 999 1 1 0 0 0 0 0 0
+fn=sel_unlock
+0 170 1 1 0 0 0 0 0 0
+fn=semaphore_create
+0 60 5 5 11 0 0 15 0 0
+fn=set_tiny_meta_header_in_use
+0 7874 9 6 1008 0 0 28 0 0
+fn=setenv
+0 46 4 4 9 1 1 14 1 1
+fn=slot_name
+0 1371 8 4 1359 11 0 6 0 0
+fn=small_free_list_add_ptr
+0 111 10 10 11 1 0 9 1 0
+fn=small_free_list_remove_ptr
+0 27 2 1 0 0 0 2 0 0
+fn=small_free_list_remove_ptr_no_clear
+0 104 10 10 12 2 0 6 0 0
+fn=small_malloc_from_free_list
+0 640 17 9 114 7 4 57 2 1
+fn=srand
+0 6 1 1 2 0 0 2 1 0
+fn=stat$INODE64
+0 217 2 2 41 0 0 0 0 0
+fn=std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*))
+0 1064 4 4 252 0 0 420 0 0
+fn=std::__1::__function::__func<foreach_realized_class_and_subclass(objc_class*, std::__1::function<void (objc_class*)>)::{lambda(objc_class*)#1}, std::__1::allocator<foreach_realized_class_and_subclass(objc_class*, std::__1::function<void (objc_class*)>)::{lambda(objc_class*)#1}>, bool (objc_class*)>::destroy()
+0 50 0 0 50 0 0 0 0 0
+fn=std::__1::__function::__func<foreach_realized_class_and_subclass(objc_class*, std::__1::function<void (objc_class*)>)::{lambda(objc_class*)#1}, std::__1::allocator<foreach_realized_class_and_subclass(objc_class*, std::__1::function<void (objc_class*)>)::{lambda(objc_class*)#1}>, bool (objc_class*)>::operator()(objc_class*&&)
+0 800 2 2 350 1 0 150 0 0
+fn=std::__1::__function::__func<void ( block_pointer)(objc_class*), std::__1::allocator<void ( block_pointer)(objc_class*)>, void (objc_class*)>::destroy()
+0 50 0 0 50 0 0 0 0 0
+fn=std::__1::__function::__func<void ( block_pointer)(objc_class*), std::__1::allocator<void ( block_pointer)(objc_class*)>, void (objc_class*)>::operator()(objc_class*&&)
+0 200 1 1 150 0 0 0 0 0
+fn=std::__1::__shared_count::__add_shared()
+0 245 1 1 196 0 0 49 0 0
+fn=std::__1::__shared_count::__release_shared()
+0 42 1 1 18 0 0 0 0 0
+fn=std::__1::__split_buffer<ImageLoader*, std::__1::allocator<ImageLoader*>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<ImageLoader*>&)
+0 124 2 2 20 0 0 48 0 0
+fn=std::__1::__split_buffer<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<ImageLoader::DOFInfo>&)
+0 136 3 3 20 0 0 48 0 0
+fn=std::__1::__split_buffer<ImageLoader::DynamicReference, std::__1::allocator<ImageLoader::DynamicReference>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<ImageLoader::DynamicReference>&)
+0 34 3 2 5 0 0 12 1 0
+fn=std::__1::__split_buffer<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), std::__1::allocator<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*)>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*)>&)
+0 62 3 3 10 0 0 24 0 0
+fn=std::__1::__split_buffer<dyld::RegisteredDOF, std::__1::allocator<dyld::RegisteredDOF>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<dyld::RegisteredDOF>&)
+0 34 2 2 5 0 0 12 0 0
+fn=std::__1::__split_buffer<dyld_image_info, std::__1::allocator<dyld_image_info>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<dyld_image_info>&)
+0 34 2 2 5 0 0 12 0 0
+fn=std::__1::__split_buffer<dyld_uuid_info, std::__1::allocator<dyld_uuid_info>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<dyld_uuid_info>&)
+0 238 2 2 35 0 0 84 0 0
+fn=std::__1::__split_buffer<void (*)(mach_header const*, long), std::__1::allocator<void (*)(mach_header const*, long)>&>::__split_buffer(unsigned long, unsigned long, std::__1::allocator<void (*)(mach_header const*, long)>&)
+0 62 1 1 10 0 0 24 0 0
+fn=std::__1::__stdinbuf<char>::__stdinbuf(__sFILE*, __mbstate_t*)
+0 31 2 2 5 0 0 14 1 1
+fn=std::__1::__stdinbuf<char>::imbue(std::__1::locale const&)
+0 24 2 2 9 1 0 9 0 0
+fn=std::__1::__stdinbuf<wchar_t>::__stdinbuf(__sFILE*, __mbstate_t*)
+0 31 2 2 5 0 0 14 0 0
+fn=std::__1::__stdinbuf<wchar_t>::imbue(std::__1::locale const&)
+0 24 2 2 9 1 0 9 0 0
+fn=std::__1::__stdoutbuf<char>::__stdoutbuf(__sFILE*, __mbstate_t*)
+0 70 2 2 14 0 0 30 2 2
+fn=std::__1::__stdoutbuf<wchar_t>::__stdoutbuf(__sFILE*, __mbstate_t*)
+0 70 3 3 14 0 0 30 0 0
+fn=std::__1::basic_streambuf<char, std::__1::char_traits<char> >::basic_streambuf()
+0 63 2 2 9 0 0 33 6 6
+fn=std::__1::basic_streambuf<wchar_t, std::__1::char_traits<wchar_t> >::basic_streambuf()
+0 63 2 2 9 0 0 33 6 6
+fn=std::__1::codecvt<char, char, __mbstate_t>::do_always_noconv() const
+0 15 1 1 6 0 0 3 0 0
+fn=std::__1::codecvt<char, char, __mbstate_t>::do_encoding() const
+0 5 1 1 2 0 0 1 0 0
+fn=std::__1::codecvt<wchar_t, char, __mbstate_t>::do_always_noconv() const
+0 15 0 0 6 0 0 3 0 0
+fn=std::__1::codecvt<wchar_t, char, __mbstate_t>::do_encoding() const
+0 22 3 3 5 0 0 4 0 0
+fn=std::__1::gslice::__init(unsigned long)
+0 181 12 12 153 5 0 14 0 0
+fn=std::__1::ios_base::Init::Init()
+0 151 14 14 38 8 0 52 6 6
+fn=std::__1::ios_base::init(void*)
+0 208 3 3 8 0 0 128 14 14
+fn=std::__1::locale::__global()
+0 180 2 2 71 1 1 48 0 0
+fn=std::__1::locale::__imp::__imp(unsigned long)
+0 335 30 30 9 1 0 141 11 11
+fn=std::__1::locale::__imp::install(std::__1::locale::facet*, long)
+0 896 3 3 280 0 0 224 0 0
+fn=std::__1::locale::__imp::use_facet(long) const
+0 60 1 1 24 0 0 0 0 0
+fn=std::__1::locale::classic()
+0 25 2 2 5 0 0 8 1 1
+fn=std::__1::locale::id::__get()
+0 836 2 2 170 22 2 220 0 0
+fn=std::__1::locale::id::__init()
+0 224 1 1 112 1 1 56 1 0
+fn=std::__1::locale::locale()
+0 224 1 1 56 0 0 84 1 0
+fn=std::__1::locale::locale(std::__1::locale const&)
+0 42 0 0 12 0 0 12 0 0
+fn=std::__1::locale::use_facet(std::__1::locale::id&) const
+0 78 1 1 18 0 0 24 0 0
+fn=std::__1::locale::~locale()
+0 30 2 2 12 0 0 6 0 0
+fn=std::__1::vector<ImageLoader*, std::__1::allocator<ImageLoader*> >::__swap_out_circular_buffer(std::__1::__split_buffer<ImageLoader*, std::__1::allocator<ImageLoader*>&>&)
+0 126 2 2 53 0 0 45 0 0
+fn=std::__1::vector<ImageLoader*, std::__1::allocator<ImageLoader*> >::reserve(unsigned long)
+0 109 3 3 30 2 2 17 0 0
+fn=std::__1::vector<ImageLoader::DynamicReference, std::__1::allocator<ImageLoader::DynamicReference> >::__swap_out_circular_buffer(std::__1::__split_buffer<ImageLoader::DynamicReference, std::__1::allocator<ImageLoader::DynamicReference>&>&)
+0 31 1 1 13 0 0 11 0 0
+fn=std::__1::vector<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), std::__1::allocator<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*)> >::__swap_out_circular_buffer(std::__1::__split_buffer<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), std::__1::allocator<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*)>&>&)
+0 62 1 1 26 0 0 22 0 0
+fn=std::__1::vector<dyld::RegisteredDOF, std::__1::allocator<dyld::RegisteredDOF> >::__swap_out_circular_buffer(std::__1::__split_buffer<dyld::RegisteredDOF, std::__1::allocator<dyld::RegisteredDOF>&>&)
+0 31 2 2 13 0 0 11 0 0
+fn=std::__1::vector<dyld::RegisteredDOF, std::__1::allocator<dyld::RegisteredDOF> >::reserve(unsigned long)
+0 34 2 2 10 0 0 5 0 0
+fn=std::__1::vector<dyld_image_info, std::__1::allocator<dyld_image_info> >::reserve(unsigned long)
+0 58 5 5 13 0 0 12 0 0
+fn=std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::__append(unsigned long)
+0 840 4 4 252 0 0 196 0 0
+fn=std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::allocate(unsigned long)
+0 25 3 3 5 0 0 7 0 0
+fn=std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::resize(unsigned long)
+0 336 1 1 84 0 0 28 0 0
+fn=std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 28ul> >::vector(unsigned long)
+0 189 1 1 33 0 0 63 4 4
+fn=std::__1::vector<void (*)(mach_header const*, long), std::__1::allocator<void (*)(mach_header const*, long)> >::__swap_out_circular_buffer(std::__1::__split_buffer<void (*)(mach_header const*, long), std::__1::allocator<void (*)(mach_header const*, long)>&>&)
+0 62 2 2 26 0 0 22 0 0
+fn=std::__1::vector<void (*)(mach_header const*, long), std::__1::allocator<void (*)(mach_header const*, long)> >::reserve(unsigned long)
+0 68 3 3 20 0 0 10 0 0
+fn=std::set_terminate(void (*)())
+0 5 1 1 3 1 0 0 0 0
+fn=strcat
+0 69 2 2 15 0 0 24 0 0
+fn=strchr
+0 82 2 2 12 0 0 2 0 0
+fn=strcmp
+0 165040 13 5 35113 956 70 3732 0 0
+fn=strcpy
+0 380 4 4 61 0 0 35 5 5
+fn=strdup
+0 189 2 2 35 0 0 56 0 0
+fn=strlcat
+0 160 2 2 28 0 0 40 1 1
+fn=strlcpy
+0 189 3 1 42 0 0 49 1 1
+fn=strlen
+0 17327 11 4 2813 87 27 654 0 0
+fn=strncmp
+0 55562 5 5 14058 90 17 2156 0 0
+fn=strncpy
+0 137 3 3 11 0 0 9 0 0
+fn=strnlen
+0 1676 1 1 340 1 1 4 0 0
+fn=strrchr
+0 2340 4 2 401 9 0 11 0 0
+fn=strstr
+0 784 4 3 132 1 1 18 0 0
+fn=strtoll
+0 23 2 2 5 1 0 6 0 0
+fn=strtoll_l
+0 132 9 9 14 2 1 8 0 0
+fn=sysconf
+0 41 6 6 10 1 1 6 0 0
+fn=sysctl
+0 12 3 3 3 0 0 2 0 0
+fn=szone_calloc
+0 1813 3 1 0 0 0 0 0 0
+fn=szone_free
+0 44 5 5 7 0 0 2 0 0
+fn=szone_free_definite_size
+0 357 5 3 3 0 0 0 0 0
+fn=szone_good_size
+0 14 2 2 2 0 0 0 0 0
+fn=szone_malloc
+0 100 3 1 0 0 0 0 0 0
+fn=szone_malloc_should_clear
+0 17261 78 48 4478 72 6 3047 18 6
+fn=szone_realloc
+0 286 16 16 57 1 0 43 0 0
+fn=szone_size
+0 3611 23 13 596 18 0 79 1 0
+fn=task_get_special_port
+0 59 5 5 11 1 0 14 0 0
+fn=task_self_trap
+0 8 2 2 2 0 0 0 0 0
+fn=task_set_special_port
+0 50 4 3 8 1 0 15 0 0
+fn=testSel
+0 124 10 10 8 0 0 45 0 0
+fn=testShell
+0 124 9 9 8 0 0 45 0 0
+fn=thread_self_trap
+0 12 2 0 3 0 0 0 0 0
+fn=tiempoAsc
+0 493 17 16 177 2 1 132 7 4
+fn=time
+0 34 2 2 9 1 0 8 0 0
+fn=tiny_free_list_add_ptr
+0 3964 11 6 387 13 8 294 20 3
+fn=tiny_free_list_remove_ptr
+0 420 9 5 40 1 0 20 1 0
+fn=tiny_free_no_lock
+0 1723 38 16 387 0 0 317 0 0
+fn=tiny_malloc_from_free_list
+0 14282 45 14 2980 54 9 1826 6 0
+fn=tls_init
+0 4 0 0 0 0 0 1 1 1
+fn=tlv_initializer
+0 8 2 2 1 0 0 2 0 0
+fn=tlv_load_notification
+0 779 1 1 328 40 0 246 0 0
+fn=unattachedCategoriesForClass(objc_class*, bool)
+0 1469 2 2 340 1 0 230 0 0
+fn=vfprintf_l
+0 4452 3 2 954 0 0 1272 1 1
+fn=vm_alloc
+0 640 41 2 120 0 0 40 0 0
+fn=vm_allocate
+0 720 1 1 240 0 0 240 11 3
+fn=void (**getDataSection<void (*)()>(mach_header_64 const*, char const*, unsigned long*, unsigned long*))()
+0 32 2 2 7 0 0 8 0 0
+fn=void std::__1::__call_once_proxy<std::__1::tuple<std::__1::(anonymous namespace)::__fake_bind&&> >(void*)
+0 308 2 2 168 0 0 28 0 0
+fn=void std::__1::__insertion_sort<method_t::SortBySELAddress&, entsize_list_tt<method_t, method_list_t, 3u>::iterator>(entsize_list_tt<method_t, method_list_t, 3u>::iterator, entsize_list_tt<method_t, method_list_t, 3u>::iterator, method_t::SortBySELAddress&)
+0 16459 3 3 4433 0 0 3394 0 0
+fn=void std::__1::__stable_sort<method_t::SortBySELAddress&, entsize_list_tt<method_t, method_list_t, 3u>::iterator>(entsize_list_tt<method_t, method_list_t, 3u>::iterator, entsize_list_tt<method_t, method_list_t, 3u>::iterator, method_t::SortBySELAddress&, std::__1::iterator_traits<entsize_list_tt<method_t, method_list_t, 3u>::iterator>::difference_type, std::__1::iterator_traits<entsize_list_tt<method_t, method_list_t, 3u>::iterator>::value_type*, long)
+0 2087 4 4 612 2 0 531 0 0
+fn=void std::__1::vector<ImageLoader*, std::__1::allocator<ImageLoader*> >::__push_back_slow_path<ImageLoader* const&>(ImageLoader* const&)
+0 51 4 4 14 0 0 7 0 0
+fn=void std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >::__push_back_slow_path<ImageLoader::DOFInfo const&>(ImageLoader::DOFInfo const&)
+0 382 6 6 89 0 0 81 3 3
+fn=void std::__1::vector<ImageLoader::DynamicReference, std::__1::allocator<ImageLoader::DynamicReference> >::__push_back_slow_path<ImageLoader::DynamicReference const&>(ImageLoader::DynamicReference const&)
+0 54 5 4 15 0 0 8 1 1
+fn=void std::__1::vector<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), std::__1::allocator<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*)> >::__push_back_slow_path<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*)>(char const* (*&&)(dyld_image_states, unsigned int, dyld_image_info const*))
+0 102 4 4 28 0 0 14 0 0
+fn=void std::__1::vector<dyld_uuid_info, std::__1::allocator<dyld_uuid_info> >::__push_back_slow_path<dyld_uuid_info const&>(dyld_uuid_info const&)
+0 679 6 6 158 0 0 144 10 10
+fn=voucher_activity_initialize_4libtrace
+0 8 2 2 3 1 0 0 0 0
+fn=vsnprintf
+0 30 3 3 7 1 0 8 0 0
+fn=write$NOCANCEL
+0 155 3 1 31 0 0 0 0 0
+fn=xmmap
+0 1264 1 1 316 0 0 158 0 0
+fn=xpc_array_create
+0 32 1 1 7 0 0 12 0 0
+fn=xpc_copy_entitlement_for_token
+0 28 2 2 7 0 0 6 0 0
+fn=xpc_copy_entitlements_for_pid
+0 2 1 0 0 0 0 0 0 0
+fn=xpc_dictionary_create
+0 56 2 2 12 0 0 22 0 0
+fn=xpc_dictionary_set_string
+0 154 1 1 28 0 0 49 0 0
+fn=xpc_dictionary_set_value
+0 147 1 1 35 1 0 42 0 0
+fn=xpc_get_type
+0 112 1 1 56 0 0 0 0 0
+fn=xpc_pipe_create_from_port
+0 6 1 1 0 0 0 0 0 0
+fn=xpc_release
+0 392 1 1 147 0 0 0 0 0
+fn=xpc_retain
+0 637 1 1 245 0 0 98 0 0
+fn=xpc_string_create
+0 126 1 1 21 0 0 42 0 0
+fn=xpc_uint64_create
+0 14 2 2 3 0 0 6 0 0
+summary: 808020144 5521 2871 432899068 1207879 8065 62491402 3798 2661

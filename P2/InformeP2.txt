@@ -1,0 +1,188 @@
+Practica 2 Algoritmos : Ordenacion por Seleccion y Ordenacion Shell
+AUTORES : IVAN GARCIA QUINTELA | ALVARO REGUEIRA VILAR | CANDELA IGLESIAS LORENZO
+LOGIN 	: ivan.garcia.quintela |        a.rvilar       |    candela.iglesias
+GRUPO 	: 1.1 MIERCOLES 10:30 - 12:30
+FECHA	: 23/10/21
+
+La ejecución de ambos algoritmos así como la medición de sus tiempos han 
+
+sido probados en una maquina con las siguientes especificaciones:
+
+- CPU 		: 1,7 GHZ Intel Core i5
+- MEMORIA 	: 4 GB 1333 MHz DDR3
+- SISTEMA 	: macOS HighSierra Versión 10.13.6
+
+Introducción: 
+
+El informe de esta practica va a tratar sobre la implementacion de dos 
+algoritmos, que son ordenacion por seleccion y la ordenacion del shell.
+
+Sobre el papel, los dos algoritmos van a tener que ordenar un vector de n 
+enteros, de menor a mayor, aunque posteriormente se vera que el shell es 
+mas eficiente. 
+
+Primero, vamos a validar los dos algoritmos para un vector aleatorio de 16 
+enteros, y para otro vector ordenado de forma descendente con 10 enteros 
+( La secuencia 10-1 ).
+
+Seguidamente, mediremos el tiempo que tardan en ejecutarse con vectores 
+ordenados ascendentemente, descendentemente y aleatoriamente, de tamaño n 
+igual a 500, 1000,2000,4000,8000,16000 y 32000.Todos los tiempos que se 
+mostrarán estan medidos en microsegundos.
+
+Ademas, en los casos en los que la ejecucion esta por debajo de nuestro umbral 
+de confianza (500 microsegundos ), se marcaran con (*) y se ejecutaran 1000 
+veces el algoritmo para que sea medido de nuevo. Ademas, el codigo se ejecutará 
+4 veces seguidas para que la CPU dedique los recursos suficientes para que las 
+mediciones se realicen correctamente.
+
+Ordenacion por Seleccion con inicializacion aleatoria
+[-15  -4  -3   6  -16   7  -2  -6  -1   2   8  11  -15  -2  -2  12  ]
+ordenado?    0
+ordenando...
+[-16  -15  -15  -6  -4  -3  -2  -2  -2  -1   2   6   7   8  11  12  ]
+ordenado?    1
+Ordenacion por Seleccion con inicializacion descendente
+[10   9   8   7   6   5   4   3   2   1  ]
+ordenado?  0
+ordenando...
+[ 1   2   3   4   5   6   7   8   9  10  ]
+ordenado?    1
+Ordenacion Shell con inicializacion aleatoria
+[-16   1  -6  -4   5  -13  -8  -6   8  -14  -2   1  -8  -13  15  -10  ]
+ordenado?    0
+ordenando...
+[-16  -14  -13  -13  -10  -8  -8  -6  -6  -4  -2   1   1   5   8  15  ]
+ordenado?    1
+Ordenacion Shell con inicializacion descendente
+[10   9   8   7   6   5   4   3   2   1  ]
+ordenado?  0
+ordenando...
+[ 1   2   3   4   5   6   7   8   9  10  ]
+ordenado?    1
+
+--------------------------------------------------------------------------------
+
+
+Ordenacion Seleccion con inicializacion ascendente
+   n          t(n)             t(n)/n^1.8           t(n)/n^2          t(n)/n^2.2
+(*)500     378.898000          0.005253              0.001516          0.000437
+1000      2823.000000          0.011239              0.002823          0.000709
+2000      9061.000000          0.010359              0.002265          0.000495
+4000     27603.000000          0.009063              0.001725          0.000328
+8000    104207.000000          0.009825              0.001628          0.000270
+16000   380349.000000          0.010298              0.001486          0.000214
+32000  1503382.000000          0.011690              0.001468          0.000184
+
+                            C. Subestimada          C. Ajustada        C.Sobrest
+                                                   Cte = 0,0015   
+OBSERVACIONES :
+La cota subestimada (n^1.8) tiende a infinito claramente.
+La cota ajustada (n^2) tiende a una constante Cte > 0 cuyo valor es 0.0015.
+La cota sobreestimada (n^2.2) tiende a 0 a medida que aumentamos el valor de n.
+Anomalias en 1000 y 2000.
+
+Ordenacion Shell con inicializacion ascendente
+   n          t(n)            t(n)/n^1.05           t(n)/n^1.15       t(n)/n^1.4
+(*)500     30.112000          0.044139              0.023710          0.005014
+(*)1000    73.160000          0.051793              0.025958          0.004616
+(*)2000   145.006000          0.049580              0.023185          0.003467
+4000      543.000000          0.089668              0.039123          0.004919
+8000     1408.000000          0.112294              0.045714          0.004834
+16000    2593.000000          0.099880              0.037937          0.003373
+32000    4795.000000          0.089203              0.031613          0.002364
+
+                            C. Subestimada          C. Ajustada        C.Sobrest
+                                                   Cte = 0,031720
+                                                   
+OBSERVACIONES :
+La cota subestimada (n^1.05) tiende a infinito claramente.
+La cota ajustada (n^1.15) tiende a una constante Cte > 0 cuyo valor es 0.031720
+La cota sobreestimada (n^1.4) tiende a 0 a medida que aumentamos el valor de n.
+Anomalías en 8000.                                                
+                                                   
+Ordenacion Seleccion con inicializacion descendente
+   n         t(n)             t(n)/n^1.8             t(n)/n^2         t(n)/n^2.2
+(*)500     461.682000          0.006400              0.001847          0.000533
+1000      1786.000000          0.007110              0.001786          0.000449
+2000      6501.000000          0.007432              0.001625          0.000355
+4000     26136.000000          0.008581              0.001633          0.000311
+8000    109765.000000          0.010349              0.001715          0.000284
+16000   451418.000000          0.012223              0.001763          0.000254
+32000  1695313.000000          0.013182              0.001656          0.000208
+
+
+                            C. Subestimada          C. Ajustada        C.Sobrest
+                                                   Cte = 0.001633   
+OBSERVACIONES:  
+La cota subestimada (n^1.8) tiende a infinito claramente.
+La cota ajustada (n^2) tiende a una constante Cte > 0 cuyo valor es 0.001633
+La cota sobreestimada (n^2.2) tiende a 0 a medida que aumentamos el valor de n.                                                
+                                                  
+                                                   
+Ordenacion Shell con inicializacion descendente
+   n         t(n)              t(n)/n^1.1           t(n)/n^1.2        t(n)/n^1.3
+(*)500       38.893000          0.041783              0.022444          0.012056
+(*)1000      69.887000          0.035026              0.017555          0.008798
+(*)2000     168.154000          0.039316              0.018385          0.008597
+(*)4000     348.001000          0.037959              0.016562          0.007226
+8000       1123.000000          0.057145              0.023263          0.009470
+16000      2263.000000          0.053722              0.020405          0.007750
+32000      4230.000000          0.046846              0.016602          0.005884
+
+                            C. Subestimada          C. Ajustada        C.Sobrest
+                                                   Cte = 0,017385
+                                                   
+OBSERVACIONES :
+La cota subestimada (n^1.1) tiende a infinito claramente.
+La cota ajustada (n^1.2) tiende a una constante Cte > 0 cuyo valor es 0.017385
+La cota sobreestimada (n^1.3) tiende a 0 a medida que aumentamos el valor de n.
+
+
+Ordenacion Seleccion con inicializacion aleatoria
+   n         t(n)             t(n)/n^1.8             t(n)/n^2         t(n)/n^2.2
+(*)500     447.512000          0.006204              0.001790          0.000517
+1000      1806.000000          0.007190              0.001806          0.000454
+2000      5463.000000          0.006246              0.001366          0.000299
+4000     27914.000000          0.009165              0.001745          0.000332
+8000    101384.000000          0.009559              0.001584          0.000263
+16000   406264.000000          0.011000              0.001587          0.000229
+32000  1644010.000000          0.012783              0.001605          0.000202
+
+                            C. Subestimada          C. Ajustada        C.Sobrest
+                                                   Cte = 0,001605
+                                                   
+OBSERVACIONES :
+La cota subestimada (n^1.8) tiende a infinito claramente.
+La cota ajustada (n^2) tiende a una constante Cte > 0 cuyo valor es 0.001605
+La cota sobreestimada (n^2.2) tiende a 0 a medida que aumentamos el valor de n.
+
+
+Ordenacion Shell con inicializacion aleatoria
+   n           t(n)           t(n)/n^1.1           t(n)/n^1.15        t(n)/n^1.3
+(*)500      83.764000          0.089989              0.065954          0.025965
+(*)1000    191.532000          0.095993              0.067958          0.024112
+2000       667.000000          0.155953              0.106645          0.034103
+4000      1251.000000          0.136456              0.090134          0.025976
+8000      2154.000000          0.109609              0.069935          0.018165
+16000     5256.000000          0.124774              0.076898          0.018001
+32000    12855.000000          0.142366              0.084752          0.017880
+
+                            C. Subestimada          C. Ajustada        C.Sobrest
+                                                   Cte = 0,069660
+                                                   
+OBSERVACIONES :
+La cota subestimada (n^1.1) tiende a infinito claramente.
+La cota ajustada (n^1.15) tiende a una constante Cte > 0 cuyo valor es 0.069660.
+La cota sobreestimada (n^1.3) tiende a 0 a medida que aumentamos el valor de n.
+Anomalias en 2000
+
+CONCLUSION: 
+Como conclusion, podemos decir que la ordenacion por seleccion, ademas de 
+tener una complejidad computacional mayor, es menos eficiente que la ordenacion 
+shell cuando hablamos de vectores de gran tamaño, ya que la ordenacion shell 
+trabaja con la mitad del vector, y el algoritmo por seleccion utiliza el vector 
+completo, asi que podemos concluir que la ordenacion shell es mucho mas 
+eficiente para cualquier caso.
+En lo referente a las anomalias, han sido mencionadas en las observaciones de 
+cada tipo de Ordenacion, aunque han sido muy escasas se han intentado evitar.
